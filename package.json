@@ -1,0 +1,24 @@
+{
+  "name": "discord-news-bot",
+  "version": "1.0.0",
+  "description": "A discord bot that aggregates news from a news API using JavaScript and Express.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arod1104/discord-news-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arod1104/discord-news-bot/issues"
+  },
+  "homepage": "https://github.com/arod1104/discord-news-bot#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
